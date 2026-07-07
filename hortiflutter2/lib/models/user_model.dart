@@ -16,4 +16,17 @@ class UserModel {
     required this.email,
     this.foto,
   });
+
+  //
+  Map<String, dynamic> toJson() {
+    return {
+      "login": login,
+      "senha": senha,
+      "nome": nome,
+      "cpf": cpf,
+      "dataNascimento": dataNascimento,
+      "email": email,
+      "foto": foto,
+    };     
+  }
 }
