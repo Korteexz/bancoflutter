@@ -1,5 +1,5 @@
 {
-  "name": "hortiflutter2",
+  "name": "hortiflutter",
   "version": "1.0.0",
   "description": "A new Flutter project.",
   "main": "index.js",
@@ -9,11 +9,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profclaytonoliveirasilva-sketch/ProjetoHortiFlutter.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/profclaytonoliveirasilva-sketch/ProjetoHortiFlutter/issues"
+  },
+  "homepage": "https://github.com/profclaytonoliveirasilva-sketch/ProjetoHortiFlutter#readme",
   "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "mysql2": "^3.22.5"
   }
 }
